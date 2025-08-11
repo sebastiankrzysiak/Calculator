@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.screen {
+    height: 100px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: white;
+    font-size:xx-large
+}
+
+.bottom {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.button {
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    flex: 0 0 calc(100% / 4);
+    text-align: center;
+    font-size: x-large;
+    background-color: gray
+}
